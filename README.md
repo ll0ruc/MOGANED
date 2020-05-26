@@ -12,9 +12,9 @@ An unofficial pytorch code reproduction of EMNLP-19 paper "Event Detection with 
 
 To run this code, you need to:
 
-  1、put the processed data into ./data, or you can modify path in constant.py. 
+    1、put the processed data into ./data, or you can modify path in constant.py. 
   
-  2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
+    2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
 
 ### Train
 ```
@@ -55,7 +55,7 @@ About the word embedding, we found that wordemb in the way(train the word embedd
 
 ## Note
 
-  In many cases, the trigger is a phrase. Therefore, we treat consecutive tokens which share the same predicted label as a whole trigger. So we don't use BIO schema for trigger word. This strategy comes from Exploring Pre-trained Language Models for Event Extraction and Generation(ACL 2019), Yang et al. [[paper]](https://www.aclweb.org/anthology/P19-1522.pdf)
+  In many cases, the trigger is a phrase. Therefore, we treat consecutive tokens which share the same predicted label as a whole trigger. So we don't use BIO schema for trigger word. This strategy comes from "Exploring Pre-trained Language Models for Event Extraction and Generation" (ACL 2019), Yang et al. [[paper]](https://www.aclweb.org/anthology/P19-1522.pdf)
 
 ## Reference
 

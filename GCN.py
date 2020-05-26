@@ -1,5 +1,5 @@
 """
-MOGCNED model for event extraction.
+MOGANED model for event extraction.
 """
 
 import torch

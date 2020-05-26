@@ -10,11 +10,11 @@ An unofficial pytorch code reproduction of EMNLP-19 paper "Event Detection with 
 
 ## Usage
 
-To run this code, you need to:
+### Preparations
 
-   1、put the processed data into ./data, or you can modify path in constant.py. 
+1、put the processed data into ./data, or you can modify path in constant.py. 
   
-   2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
+2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
 
 ### Train
 ```

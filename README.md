@@ -12,9 +12,9 @@ An unofficial pytorch code reproduction of EMNLP-19 paper "Event Detection with 
 
 To run this code, you need to:
 
-    1、put the processed data into ./data, or you can modify path in constant.py. 
+   1、put the processed data into ./data, or you can modify path in constant.py. 
   
-    2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
+   2、put word embedding file into ./data, or you can modify path in constant.py. (You can download GloVe embedding here: https://nlp.stanford.edu/projects/glove/)
 
 ### Train
 ```
@@ -23,7 +23,7 @@ python train.py
 
 All network and training parameters are in [constant.py](https://github.com/ll0iecas/MOGANED/blob/master/consts.py). You can modify them in your own way.
 
-About the word embedding, we found that wordemb in the way(train the word embedding using Skip-gram algorithm on the NYT corpus) got better performance than the [glove.6B.100d](https://nlp.stanford.edu/projects/glove/). So we choose 100.utf8 (you can get it here https://github.com/yubochen/NBTNGMA4ED) as our word embedding vector.
+About the word embedding, we found that wordemb in the way (train the word embedding using Skip-gram algorithm on the NYT corpus) got better performance than the [glove.6B.100d](https://nlp.stanford.edu/projects/glove/). So we choose 100.utf8 (you can get it here https://github.com/yubochen/NBTNGMA4ED) as our word embedding vector.
 
 ## Result	
 
